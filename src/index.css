@@ -1,1 +1,26 @@
 @import 'tailwindcss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+	width: 0;
+	height: 1px;
+}
+::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 10px;
+	height: 200px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+.btnContent:hover {
+	background: #76323f !important;
+	color: white !important;
+}
+.btnContent:hover span {
+	color: white !important;
+}
